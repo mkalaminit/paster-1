@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  background: linear-gradient(-45deg, #ac32e4, #7918f2, #4801ff) !important;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: __Space_Grotesk_0aa4ae,__Space_Grotesk_Fallback_0aa4ae !important;
+  color: white;
+}
